@@ -1,0 +1,76 @@
+body {
+background-color: #eae4e4;
+	margin: 0px;
+   min-height: 100%;
+   width: 100%;
+}
+
+.words{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+  float: center;
+    margin: 50px 50px 50px 50px;
+}
+
+a { color: black; font-weight:bold;
+text-decoration:none; }
+a:hover{
+color:white; font-weight:bold;
+}
+
+* {
+  margin:0; padding:0;
+}
+
+h1 { 
+  width:100%; text-align:center;
+}
+
+.cell {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.cell canvas {
+	vertical-align: middle;
+}
+
+.canthumb {
+	border: 0px solid #222;
+}
+#main { 
+
+}
+
+#maincanvas {
+	border: 0px solid #222;
+	cursor: pointer;
+  margin:0 auto;
+}
+
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    	font-family: 'Open Sans', sans-serif;
+}
+.nav li{
+    display:inline;
+    	font-family: 'Open Sans', sans-serif;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}*/
+
+
+
